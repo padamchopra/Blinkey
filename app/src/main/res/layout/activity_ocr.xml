@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ocr"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.esy.practikality.blinkey.OCR">
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/surface_view"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="220dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="Casual"
+        android:id="@+id/text_view"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:text="Read Text"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="40sp"
+        android:layout_alignParentBottom="true"
+        android:onClick="ReadText"
+        android:id="@+id/read_text_button"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"/>
+</RelativeLayout>
