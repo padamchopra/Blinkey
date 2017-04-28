@@ -15,3 +15,4 @@ already integrated in the application
 2. Topic Can be Read Out by the application with voice command- "Read (Saved title name)"
 3. Optical Charcater Reader can be Accessed with the voice command- "photo/capture/click"
 4. "Hello" is a predefined text that can be used to test the functioning of the application, the return will be "Hello there!"   
+5. If a voice output is to be implemented and the phone is locked then the voice output will continue.
